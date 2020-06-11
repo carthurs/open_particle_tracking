@@ -1,0 +1,9 @@
+{
+	"maximum particle reinjections": "999999999999999",
+	"tracking steps between each reinjection": "1",
+	"steps before first reinjection": "0",
+	"space time bins": [],
+	"include vorticity computations": false,
+	"mpi support for h5py available": true,
+	"mesh manually extracted from geombc": false
+}

@@ -1,0 +1,90 @@
+{
+    "data file base name": "vis",
+    "input data start timestep": 100400,
+    "input data end timestep": 107000,
+    "timesteps between restarts in input data": 100,
+    "real time between restarts in input data": 0.001,
+    "tracking simulation starting timestep": 100400,
+    "number of cycles to track for": 4,
+    "wall has displacement field": false,
+    "steps between repartitioning particles and writing output": 2,
+    "real time through cardiac cycle when simulation starts": 0.0,
+    "real time of first systole start": 0.056,
+    "real time of first systole end": 0.297,
+    "cardiac cycle length": 0.66,
+ 
+    "maximum particle reinjections": "9999999999999",
+    "tracking steps between each reinjection": "40",
+    "steps before first reinjection": "10",
+    "space time bins": [
+        {
+            "bin name": "LPA_Bin",
+            "bin data": "plap",
+            "bin time intervals": [
+                {
+                    "start": "0.0",
+                    "end": "0.66"
+                }
+            ],
+            "bin file names": [
+                "LPA_Bin_Lofted_volume_Meshed.sms.vtu"
+            ]
+        },
+        {
+            "bin name": "RPA_Bin",
+            "bin data": "plap",
+            "bin time intervals": [
+                {
+                    "start": "0.0",
+                    "end": "0.66"
+                }
+            ],
+            "bin file names": [
+                "RPA_Bin_Lofted_volume_Meshed.sms.vtu"
+            ]
+        },
+        {
+            "bin name": "right_subclavian_bin",
+            "bin data": "plap",
+            "bin time intervals": [
+                {
+                    "start": "0.0",
+                    "end": "0.66"
+                }
+            ],
+            "bin file names": [
+                "right_subclavian_bin_Lofted_volume_Meshed.sms.vtu"
+            ]
+        },
+        {
+            "bin name": "shunt_exit_bin",
+            "bin data": "plap",
+            "bin time intervals": [
+                {
+                    "start": "0.0",
+                    "end": "0.66"
+                }
+            ],
+            "bin file names": [
+                "shunt_exit_bin_Lofted_volume_Meshed.sms.vtu"
+            ]
+        },
+        {
+            "bin name": "PA_Central_Bin",
+            "bin data": "plap",
+            "bin time intervals": [
+                {
+                    "start": "0.0",
+                    "end": "0.3"
+                },
+                {
+                    "start": "0.5",
+                    "end": "0.6"
+                }
+            ],
+            "bin file names": [
+                "PA_Central_Bin_Lofted_Volume_Meshed.sms.vtu"
+            ]
+        }
+    ]
+}
