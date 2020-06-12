@@ -1,5 +1,5 @@
 Contributors to ParticleTracking
 
-Paolo Di Achille
-Kevin Lau
+Paolo Di Achille <paolo DOT diachille AT gmail DOT com>
+Kevin Lau <kevin DOT d DOT lau AT gmail DOT com>
 Christopher Arthurs <carthurs AT gmail DOT com>
